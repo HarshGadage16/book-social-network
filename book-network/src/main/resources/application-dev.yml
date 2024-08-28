@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://book_social_network_zm4o_user:5PbrLyfn6TWCbEmYBsE9QKQIJeQwrRv9@dpg-cr7ku3q3esus738cdu10-a.oregon-postgres.render.com/book_social_network_zm4o
+    url: postgresql://book_social_network_zm4o_user:5PbrLyfn6TWCbEmYBsE9QKQIJeQwrRv9@dpg-cr7ku3q3esus738cdu10-a/book_social_network_zm4o
     username: book_social_network_zm4o_user
     password: 5PbrLyfn6TWCbEmYBsE9QKQIJeQwrRv9
     driver-class-name: org.postgresql.Driver
