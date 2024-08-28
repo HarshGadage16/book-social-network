@@ -24,5 +24,5 @@ ENV MAILDEV_URL=localhost
 
 ENV ACTIVE_PROFILE=${PROFILE}
 ENV JAR_VERSION=${APP_VERSION}
-CMD docker-compose -f docker-compose.yml up
+CMD docker compose up
 #CMD java -jar -Dspring.profiles.active=${ACTIVE_PROFILE} -Dspring.datasource.url=${DB_URL}  book-network-${JAR_VERSION}.jar
