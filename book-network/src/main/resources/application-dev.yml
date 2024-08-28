@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/book_social_network
-    username: username
-    password: password
+    url: postgresql://book_social_network_zm4o_user:5PbrLyfn6TWCbEmYBsE9QKQIJeQwrRv9@dpg-cr7ku3q3esus738cdu10-a.oregon-postgres.render.com/book_social_network_zm4o
+    username: book_social_network_zm4o_user
+    password: 5PbrLyfn6TWCbEmYBsE9QKQIJeQwrRv9
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -14,7 +14,7 @@ spring:
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   mail:
-    host: localhost
+    host: https://mail-dev-bsn.onrender.com
     port: 1025
     username: harsh
     password: harsh
