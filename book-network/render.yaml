@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: postgres-sql-bsn
+    env: docker
+    plan: free
+    dockerfilePath: ""
+    dockerComposePath: ./docker-compose.yml
