@@ -19,7 +19,7 @@ COPY --from=build /build/target/book-network-*.jar /app/
 #    && echo "Building container with BSN v-$version"
 EXPOSE 8088
 
-ENV DB_URL=jdbc:postgresql://book_social_network_zm4o_user:5PbrLyfn6TWCbEmYBsE9QKQIJeQwrRv9@dpg-cr7ku3q3esus738cdu10-a/book_social_network_zm4o
+ENV DB_URL=jdbc:postgresql://dpg-cr7ku3q3esus738cdu10-a:5432/book_social_network_zm4o
 ENV MAILDEV_URL=localhost
 
 ENV ACTIVE_PROFILE=${PROFILE}
